@@ -1,0 +1,135 @@
+/* general styles */
+body {
+  font-family: 'Schoolbell', cursive;
+}
+
+.container {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+img {
+  border-radius: 70%;
+}
+
+h1 {
+  font-size: 80px;
+  color: hotpink;
+}
+
+/* nav bar */
+nav {
+  background-color: rgb(255, 0, 212);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 10px 30px;
+}
+
+nav a {
+  color: rgb(251, 255, 0);
+  font-family: 'Schoolbell', cursive;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: deepskyblue;
+  font-family: 'Schoolbell', cursive;
+  text-decoration: line-through;
+}
+
+/* header section */
+header {
+  background: linear-gradient(180deg, rgb(255, 255, 255), rgb(205, 237, 254));
+  font-size: 25px;
+  padding: 15% 10%;
+  color: rgb(99, 119, 7);
+}
+
+header h1 span {
+  color: rgb(119, 0, 255);
+  font-family: 'Chewy', cursive;
+  font-size: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 span:hover {
+  color: palevioletred;
+}
+
+/* about me section */
+.about {
+  background:
+    linear-gradient(
+      rgba(255, 109, 248, 0.3),
+      rgba(255, 255, 255, 1)
+    ), url('https://data.whicdn.com/images/207537470/large.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.work-items img{
+height: 300px;
+width: 300px;
+}
+
+.work-container {
+  column-span: 100%;
+}
+
+/* my skills section */
+.skills ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+  color: brown;
+}
+
+.skills li {
+  background-color: rgba(103, 255, 83, 0.747);
+  box-shadow: 20px 20px 1px 2px rgb(80, 255, 232);
+  font-size: 35px;
+  margin: 1%;
+  padding: 3%;
+  text-align: center;
+  color: green;
+}
+
+/* my work  */
+.work {
+  background-color:rgb(246, 148, 255);
+}
+
+.work .work-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+/* footer */
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .svg-inline--fa {
+  color: salmon;
+  font-size: 65px;
+}
+
+footer .svg-inline--fa:hover {
+  color: rgb(255, 77, 225);
+}
